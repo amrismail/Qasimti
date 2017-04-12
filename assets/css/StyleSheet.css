@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
     font-family: 'Cairo', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -361,6 +361,31 @@ body{
     font-weight: 600;
 }
 
+.white_long_box
+{
+    background-color: white; 
+    padding: 5px 10px; 
+    border: 1px solid #ededed; 
+    font-weight: 1000;
+    width: 300px;
+}
+.swhite_long_box {
+    background-color: white; 
+    padding: 5px 10px; 
+    border: 1px solid #ededed; 
+    font-weight: 1000;
+    width: 130px;
+}
+
+.textfill {
+    direction: ltr;
+    font-family: "Droid Arabic Kufi";
+    font-size: 25px;
+    color: #505050;
+    padding: 5px 10px 10px 10px; 
+}
+
+
 
 .green_font
 {
@@ -419,11 +444,50 @@ input[readonly]
     border:none;
 }
 
-table, th, td {
-    border: 1px ;
+.tableprice table {
+   
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.tableprice th {
+  font-family: "Droid Arabic Kufi";
+  font-size: 15px;
+  color: #01aae3;
+  border: 1px solid #ddd;
+    text-align: center;
+}
+.tableprice td {
+  font-family: "Droid Arabic Kufi";
+  font-size: 17px;
+  color: #f18030;
+  border: 1px solid #ddd;
+    text-align: center;
+}
+.tableprice table {
     border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
 }
-th, td {
-    padding: 1px;
-    text-align: left;    
+
+.tableprice th, td {
+    padding: 10px;
 }
+
+.choose {
+   font-family: "Droid Arabic Kufi";
+	font-size: 18px;
+	color: #343436;
+}
+.choosedesc{
+	font-family: "Droid Arabic Kufi";
+	font-size: 15px;
+	color: #868585;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
