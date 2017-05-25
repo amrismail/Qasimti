@@ -61,6 +61,7 @@ nav.navbar.navbar-fixed-top {
 #carousel-example-generic {
     border-bottom: 2px solid #c8c8c8;
     border-top: 2px solid #c8c8c8;
+ 
 }
 
 .label_khasm {
@@ -502,7 +503,7 @@ input[readonly]
 .price {
  text-align: center;
     direction: rtl;
-    font-size: 20px;
+    
     
     
 }
@@ -513,7 +514,7 @@ input[readonly]
 
 .tgk td{font-size:1000px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
 .tgk th{font-size:15px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tgk .tg-p7s4{border-left-width:2px;border-left-color: #fafafa; background-color:#f0f0f0;color:#333333;text-align:center;vertical-align:top}
+.tgk .tg-p7s4{background-color:#f0f0f0;color:#333333;text-align:center;vertical-align:top}
 .tgk .tg-lkb1{padding-right: 15px; direction: rtl; background-color:#fafafa;text-align:right;color:#333333;vertical-align:top}
 
 
@@ -551,3 +552,8 @@ input[readonly]
 .sharelove {
     margin-left:10px;
 }
+
+#sadka {
+    margin-top: 20px;
+}
+

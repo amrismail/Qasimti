@@ -86,14 +86,18 @@ body {
 .btn-info
 {
     background-color:#00c8c8;
-    background-image:none;
-    margin-bottom: 10px;
+    background-image:none;  
+   
 }
+
+
 
 .btn-warning
 {
     background-color:#f49f18;
     background-image:none;
+    
+    
 }
 
 .nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus
@@ -162,3 +166,9 @@ body {
 }
 }
 
+
+
+
+.safka {
+    margin-top: 5px;
+}

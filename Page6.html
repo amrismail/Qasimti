@@ -102,24 +102,28 @@
     
     
     <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-      <ul id="myTab" class="nav nav-tabs nav-tabs-responsive" role="tablist">
-        <li role="presentation" class="active">
-          <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">
-            <span class="text">الحالية</span>
+      <ul class="nav nav-pills navbar-right">
+       
+        <li role="presentation" >
+          <a href="#samsa" role="tab" id="samsa-tab" data-toggle="tab" aria-controls="samsa">
+            <span class="text">الكل</span>
           </a>
         </li>
-        <li role="presentation" class="next">
+          <li role="presentation" class="next">
           <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
             <span class="text">المنتهية</span>
           </a>
         </li>
         
-        <li role="presentation">
-          <a href="#samsa" role="tab" id="samsa-tab" data-toggle="tab" aria-controls="samsa">
-            <span class="text">الكل</span>
+        
+           <li class="active"  >
+          <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">
+            <span class="text">الحالية</span>
           </a>
         </li>
       </ul>
+        <br><hr>
+        
       <div id="myTabContent" class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
           <br>
